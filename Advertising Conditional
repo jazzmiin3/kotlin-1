@@ -1,0 +1,20 @@
+fun main(args: Array<String>){
+    print("Enter a number between 1 and 10")
+
+    var number = readline()!!
+    println("You entered" + number.toInt())
+    var rom = number.toInt()
+
+// ask for a number between 1 and 10 //
+    //if the number is less than 1 or higher than 10 the prinit error 
+    //if the number is 1 than print 1
+    //if the number is 2 then print 11
+// if the number is 3 then print 111 
+// if the number is 4 then print IV
+    // if the number is 5 then V 
+    // if the number is 6 then print VI
+    //if the number is 7 then print VII
+    //if the number is 8 then print VIII
+//if the number is 9 then print IX
+    // if the number is 10 then print X
+}
